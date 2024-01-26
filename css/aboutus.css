@@ -81,3 +81,6 @@ font-size: 31px;
     }
   
   }
+  .form-group .hidden{
+    display: block !important;
+  }

@@ -1392,8 +1392,7 @@ pre {
 }
 html,
 body {
-  height: auto;
-  min-height: 100vh;
+  width: 100%;
 }
 .dropup .dropdown-toggle::after {
   display: none;
@@ -1548,8 +1547,8 @@ body {
   height: 18px;
   cursor: pointer;
   transition: all .2s;
-  top: 1.5rem;
-  right: 1rem;
+  top:40px;
+  right: 30px;
 }
 .cid-qTkzRZLJNu button.navbar-toggler:focus {
   outline: none;
@@ -1900,10 +1899,12 @@ body {
 .cid-qVGEpyoZHh .mbr-slider .carousel-control.carousel-control-prev {
   left: 0;
   margin-left: 2.5rem;
+  display: none;
 }
 .cid-qVGEpyoZHh .mbr-slider .carousel-control.carousel-control-next {
   right: 0;
   margin-right: 2.5rem;
+  display: none;
 }
 .cid-qVGEpyoZHh .mbr-slider .carousel-control .mbr-iconfont {
   font-size: 2rem;
@@ -4676,7 +4677,7 @@ body {
 .cid-qTkzRZLJNu .navbar-toggleable-sm.opened:after {
   position: absolute;
   width: 100vw;
-  height: 100vh;
+  height: auto;
   content: '';
   background-color: rgba(0, 0, 0, 0.1);
   left: 0;
@@ -4711,7 +4712,7 @@ body {
   height: 18px;
   cursor: pointer;
   transition: all .2s;
-  top: 1.5rem;
+  top: 33px !important;
   right: 1rem;
 }
 .cid-qTkzRZLJNu button.navbar-toggler:focus {

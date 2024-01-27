@@ -50,8 +50,10 @@
   }
   .footer-text p {
     margin-bottom: 14px;
-    font-size: 14px;
-    color: #7e7e7e;
+    font-size: 22px;
+    overflow: hidden;
+    font-weight: 600;
+    color: #fff;
     line-height: 21px;
   }
   .footer-social-icon span {
@@ -271,4 +273,71 @@
     background: #fff;
     color: #ff0000;
   }
-  
+  .single-cta{
+    display: flex;
+  }
+
+
+
+  .footer-cta
+{
+  border-bottom: 1px solid #373636;
+  padding-bottom: 8px !important;
+}
+footer, header, hgroup, main, nav, section
+{
+  display: block;
+}
+.single-cta
+{
+  display: flex;
+}
+.footer-cta .row .col-xl-4:nth-child(1) .single-cta .cta-text
+{
+  padding-left: 32px;
+}
+
+.cta-text
+{
+  padding-left: 15px;
+  display: inline-block;
+}
+element
+{
+}
+.cta-text h4
+{
+  color: #fff;
+
+  font-size: 20px;
+
+  font-weight: 600;
+
+  margin-bottom: 2px;
+
+  overflow: hidden;
+
+}
+ h4{
+  line-height: 1;
+  word-break: break-word;
+  word-wrap: break-word;
+}
+.cta-text span
+{
+  color: #757575;
+  font-size: 15px;
+}
+.cid-qVGL5eNAd6
+{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #2e2e2e;
+}
+.mbr-white
+{
+  color: #ffffff;
+}
+.social_icon li a{
+  overflow: hidden;
+}

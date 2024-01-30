@@ -7,7 +7,7 @@
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --blue-color:#036;
+  --blue-color:#30ae3e;
   --blue-color-light: hsl(220, 24%, 15%);
   --blue-color-lighten: hsl(220, 20%, 18%);
   --white-color: #fff;
@@ -143,7 +143,7 @@ a {
   padding: 10px;
   background: #f7ed4a ;
   border-radius: 25%;
-  color: #036;
+  color: #30ae3e;
 }
 
 /* Navigation for mobile devices */

@@ -4,7 +4,7 @@
 .blu_sec_hf{
     /* float: left; */
     width: 100%;
-    background: #036;
+    background: #30ae3e;
     color: #fff;
     border-radius: 20px;
     padding: 30px;
@@ -44,7 +44,7 @@ margin-top: 100px;
 }
 .about_content
 {
-  background: url('../images/help_bg.jpg');
+  background: url('../images/g12.jpg');
     background-position-x: 0%;
     background-position-y: 0%;
     background-repeat: repeat;
@@ -57,7 +57,7 @@ margin-top: 100px;
   color: #fff;
   padding: 20px;
   text-transform: capitalize;
-  height: 30vh;
+  height: 40vh;
 }
 
 .abt_sec h1

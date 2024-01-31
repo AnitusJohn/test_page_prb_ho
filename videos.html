@@ -29,95 +29,6 @@
       crossorigin="anonymous"></script>
 
 
-      <style>
-        * {
-        box-sizing: border-box;
-    }
-    
-    body {
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-        overflow-x: hidden;
-    }
-    
-    .menu ul {
-        text-align: center;
-    }
-    
-    ul li {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        display: inline-block;
-        cursor: pointer;
-        transition: all .5s;
-    }
-    
-    ul li:hover {
-        background: #222;
-        color: #eee;
-    }
-    
-    
-    img {
-        width: 100%;
-        height: auto;
-        border-radius: 10px;
-    }
-    
-    .row {
-        display: flex;
-        flex-wrap: wrap;
-        padding: 0 4px;
-    }
-    .img_sec_hd{
-        margin-top: 135px;
-    }
-    .column {
-        flex: 25%;
-        max-width: 25%;
-        padding: 0 4px;
-    }
-    
-    .column img {
-        margin-top: 8px;
-        vertical-align: middle;
-    }
-    
-    .gallery{
-        background-image: url('../prbha_home/images/leaves.jpg');
-        background-attachment:fixed ;
-        padding-top: 100px;
-    }
-    
-    /* Two column layout */
-    @media (max-width: 800px) {
-        .column {
-            flex: 50%;
-            max-width: 50%;
-        }
-    }
-    
-    
-    @media (min-width: 360px) and (max-width:556px) {
-        .gallery .row .column img{
-            width: 100%;
-            height: auto !important;
-        }
-        .gallery .row .column {
-            flex: 100%;
-            max-width: 100%;
-        }
-    }
-    @media (max-width: 600px) {
-        .column {
-            flex: 100%;
-            max-width: 100%;
-        }
-    }
-    
-      </style>
 </head>
 
 <body>
@@ -125,10 +36,10 @@
    <!-- marquee -->
    <div class='News-footer'>
       <div class='news'>
-         <span id='news-head'><b>Please Help </b></span>
+         <span id='news-head'><b>Please Donate </b></span>
       </div>
       <p class='N-text'>
-        <marquee direction='left'>
+         <marquee direction='left'>
             <span>
 
                 • Supporting old age homes is a noble endeavor that can make a significant impact on the lives of
@@ -186,7 +97,7 @@
                   <ul class="nav__list">
                      <li><a href="./index.html" class="nav__link">Home</a></li>
 
-                     <li><a href="about.html" class="nav__link">About Us</a></li>
+                     <li><a href="./about.html" class="nav__link">About Us</a></li>
 
                      <!--=============== DROPDOWN 1 ===============-->
                      <!-- <li class="dropdown__item">
@@ -246,7 +157,7 @@
 
                         <ul class="dropdown__menu">
                            <li>
-                              <a href="#" class="dropdown__link">
+                              <a href="./videos.html" class="dropdown__link">
                                  <i class="ri-vidicon-fill"></i> Videos
                               </a>
                            </li>
@@ -256,11 +167,12 @@
                                  <i class="ri-image-fill"></i> Images
                               </a>
                            </li>
+
+
                         </ul>
                      </li>
 
-                     
-                     <li><a href="./contact.html" class="nav__link">
+                     <li><a href="./donation.html" class="nav__link">
                            <span>
 
                               <svg xmlns="http://www.w3.org/2000/svg" class="heart" style="width: 25px; padding:3px; "
@@ -278,78 +190,10 @@
       </nav>
    </header>
 
-   <section class="img_sec_hd">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="column ">
-               <video width="320" height="240" controls>
-                   <source src="./videos/gv3.mp4" type="video/mp4">
-                   <source src="movie.ogg" type="video/ogg">
-                 Your browser does not support the video tag.
-                 </video>
-                <img src="./images/s1.jpg">
-                         <img src="./images/s8.jpg" alt="">
-                         <video width="320" height="240" controls>
-                           <source src="./images/s15.mp4" type="video/mp4">
-                           <source src="movie.ogg" type="video/ogg">
-                         Your browser does not support the video tag.
-                         </video>
-                         <img src="./images/s16.jpg" alt="">
-                         <img src="./images/s11.jpg" alt="">
-                        
-            </div>
-        
-            <div class="column">
-               <img src="./images/s13.jpg" alt="">
-                <img src="./images/g3.png">
-                <img src="./images/s4.jpg">
-                <img src="./images/g6.jpg" >
-                <video width="320" height="240" controls>
-                   <source src="./images/gv1.mp4" type="video/mp4">
-                   <source src="movie.ogg" type="video/ogg">
-                 Your browser does not support the video tag.
-                 </video>
-            </div>
-        
-            <div class="column">
-               <video width="320" height="240" controls>
-                   <source src="./images/s7.mp4" type="video/mp4">
-                   <source src="movie.ogg" type="video/ogg">
-                 Your browser does not support the video tag.
-                 </video>
-                 <img src="./images/s3.jpg" alt="">
-                 <img src="./images/g7.jpg" alt="">
-
-                 <img src="./images/s9.jpg" alt="">
-                 <img src="./images/g18.jpg" alt="">
-                 <img src="./images/g30.jpg" alt="">
-                 <video width="320" height="240" controls>
-                   <source src="./videos/gv7.mp4" type="video/mp4">
-                   <source src="movie.ogg" type="video/ogg">
-                 Your browser does not support the video tag.
-                 </video>
-            </div>
-        
-            <div class="column">
-                <img src="./images/s5.jpg" alt="">
-                <img src="./images/b3.jpg" alt="">
-
-              <img src="./images/s14.jpg" alt="">
-<img src="./images/help.jpg" alt="">
-<video width="320" height="240" controls>
-   <source src="./images/s7.mp4" type="video/mp4">
-   <source src="movie.ogg" type="video/ogg">
- Your browser does not support the video tag.
- </video>
-<img src="./images/s12.jpg" alt="">
-
-               </div>
-        
-        </div>
-    </div>
-    
+   <section>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. In quis asperiores veritatis quia delectus? Quod odit accusamus voluptatum cumque aperiam, porro numquam unde magni pariatur vero labore fugiat recusandae ut quisquam quae consequatur, maxime nam nisi illo ab facere modi odio. Repellat, aut in. Ab facere culpa quibusdam inventore corrupti placeat recusandae ipsam, laborum maxime nostrum iste sequi ullam suscipit quam sunt aliquid at quisquam doloremque earum provident adipisci neque qui. Autem itaque aut esse optio vitae! Dolore odio nisi sint est magni corporis distinctio vero mollitia, reprehenderit sit! Deserunt vero iusto explicabo debitis obcaecati natus aspernatur ullam quo accusamus, hic quis ea qui quae ipsa quidem reprehenderit nam tempore consequuntur excepturi velit labore! Sed repellat quod fuga blanditiis, eos dolorem, veniam esse, eum earum sit quis velit distinctio at doloremque repudiandae magni facere! Obcaecati nostrum voluptas magnam? Necessitatibus pariatur commodi earum assumenda suscipit totam ducimus eligendi nisi aspernatur sapiente, velit, temporibus at iusto. Molestias nisi a veniam quisquam cupiditate pariatur consectetur suscipit totam alias neque! Cupiditate, aliquid accusantium ad mollitia aliquam id voluptates expedita! Fugit architecto provident quaerat dolore expedita magni reprehenderit, perferendis, quisquam placeat suscipit fuga. Ipsam quibusdam numquam aliquam ea nisi dolore, saepe tempore impedit vitae dolorum aspernatur, tempora libero rerum? Possimus temporibus est minima, totam libero necessitatibus dignissimos aliquam architecto sed nostrum vero excepturi reiciendis dolores, quas recusandae eius sapiente quam dicta animi iure distinctio voluptates! Similique sint, eius neque quae fuga cumque, laborum doloremque repellendus ex molestias quaerat totam. Quae odio alias doloremque neque ipsam maiores officiis delectus, culpa autem sunt, assumenda qui eaque beatae minima minus reiciendis quia nostrum numquam? Ipsam quam facilis veritatis quis officia dolor, vel adipisci harum autem, nesciunt aut. Voluptates consectetur voluptatem nobis, magnam quod expedita. Distinctio nam explicabo, eos officia consectetur doloribus dolorem, quaerat officiis nihil ducimus, similique sit. Amet, ab. Exercitationem fugiat quis ratione laudantium quo quaerat in velit atque architecto quam? Officiis amet beatae culpa earum fuga ad repudiandae totam veniam. Repellendus quae aliquid eos provident voluptas debitis. Distinctio ad nam doloribus facilis corporis, quibusdam qui laborum, corrupti nemo pariatur culpa soluta quam natus, veritatis sunt ratione perspiciatis maxime. Ipsum nihil labore soluta modi pariatur, facilis nisi libero obcaecati necessitatibus sapiente mollitia eligendi cum, voluptatibus iure aperiam sunt cupiditate dignissimos est? Fugit ab et quaerat vitae, ut aspernatur perspiciatis illo distinctio qui, eos laboriosam molestiae nobis illum nulla deserunt dolorem tempore? Dignissimos dolores ipsum amet nihil numquam iste culpa maxime sed quo in quidem ab explicabo debitis, ipsa, alias unde quis atque? Dicta, inventore. Molestias fugit repellendus quis magnam, pariatur, nisi eaque at accusantium dolor quaerat porro consequuntur est sunt et voluptas aut quasi repudiandae aspernatur esse, ad dignissimos deleniti. Delectus reprehenderit deleniti blanditiis sed nostrum temporibus, nemo, est dolore facilis aliquid hic necessitatibus nesciunt alias. Distinctio magni molestias voluptatum sit nisi suscipit nostrum, perferendis veniam exercitationem id voluptates aperiam libero recusandae quos fugiat ex autem porro quas esse magnam hic placeat. Maxime blanditiis delectus ea laudantium totam adipisci quia deleniti! Nemo suscipit eligendi laboriosam quis corporis?
    </section>
-   
+
 
 
 
@@ -501,8 +345,10 @@
        <div class="media-container-row align-center mbr-white">
            <div class="col-md-12">
                <p class="mbr-text mb-0 mbr-fonts-style display-7">
-                   © Copyright 2024 All Rights Reserved. Designed by <a href="https://www.kumaritech.com/">KUMARI
-                       TECH</a>
+                 <span style="margin-top: 5px;">
+                    © Copyright 2024 All Rights Reserved. Designed by <a href="https://www.kumaritech.com/">KUMARI
+                        TECH</a>
+                 </span>
                </p>
            </div>
        </div>

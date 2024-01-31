@@ -128,7 +128,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
 color: #fff;
 }.social_icon li:nth-child(2) a
 {
-background: #1da1f2;
+    background: -moz-linear-gradient( 45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100% );
 color: #fff;
 }.social_icon li:nth-child(1) a
 {

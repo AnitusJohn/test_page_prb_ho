@@ -60,6 +60,25 @@ margin-top: 100px;
   height: 40vh;
 }
 
+.contact_bg_form
+{
+  background: url('../images/payment.jpg');
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-size: auto;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: #fff;
+  padding: 20px;
+  text-transform: capitalize;
+  height: 40vh;
+}
+
+
 .abt_sec h1
 {
   float: left;
@@ -150,12 +169,16 @@ margin-top: 100px;
   padding: 100px 0;
 }
 
+
 .donation_qr_ara img{
   
     width: 100%;
  float: left;  
 }
+
 .utb_sec{
   margin-top: 153px;
   text-align: center  ;
 }
+
+

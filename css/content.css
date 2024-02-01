@@ -60,9 +60,10 @@ margin-top: 100px;
   height: 40vh;
 }
 
+
 .contact_bg_form
 {
-  background: url('../images/payment.jpg');
+  background: url('../images/bg_grn.png');
     background-position-x: 0%;
     background-position-y: 0%;
     background-repeat: repeat;
